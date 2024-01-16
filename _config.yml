@@ -1,28 +1,26 @@
 # Base configs
-baseurl: "https://photography.rampatra.com"
+baseurl: "hhttps://ole4katheallmighty.github.io/"
 #baseurl: "" # Comment the above line and uncomment this to test the website locally
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
-google_analytics: "UA-46465113-2"
+google_analytics: ""
 
 # UI configs
-title: "Photography by Ram Patra"
+title: "Videos by Olga Alexeeva"
 subtitle: "See the world through my eyes!"
-author: "Ram Patra"
+author: "Olga Alexeeva"
 header:
- title: "Photography"
- subtitle: "by Ram Patra"
+  title: "Videos"
+  subtitle: "by Olga Alexeeva"
 footer:
- name: "Hey there, my name is Ram"
- bio: "I am a developer and a tech aficionado from India. Love making teeny tiny apps solving tiny problems in life and now learning photography."
- github: "Want a website like this for yourself for free? Just <a href=\"https://github.com/ramswaroop/photography\">fork this repo on github</a> ;)"
+  name: "Hey there, my name is Olga"
+  bio: "Hello! I'm Olga, a passionate video editor from Germany, leveraging the transformative power of AI to create visually stunning and innovative videos. With a flair for blending creativity with technology, I specialize in bringing stories to life through the art of video editing, tailored to captivate a global audience."
 web_design: "AJ"
 # Configure which exif data to display
 # Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
 exif: '[{"tag": "Model", "icon": "camera-retro"}, {"tag": "FNumber", "icon": "dot-circle-o"}, {"tag": "ExposureTime", "icon": "clock-o"}, {"tag": "ISOSpeedRatings", "icon": "info-circle"}]'
 social_urls:
-  twitter: "https://www.twitter.com/ram__patra"
-  instagram: "https://www.instagram.com/ram_patra"
-  dribbble: "https://dribbble.com/rampatra"
-  linkedin: "https://in.linkedin.com/in/ram-patra"
-  github: "https://www.github.com/rampatra"
+  instagram: "#"
+  youtube: "#"
+  linkedin: "#"
+  github: "#"
