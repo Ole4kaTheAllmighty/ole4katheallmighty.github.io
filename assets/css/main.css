@@ -983,7 +983,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: rgba(36, 38, 41, 0.975);
+		background: rgba(31, 34, 36, 0.975);
 		bottom: 4em;
 		left: 0;
 		max-height: calc(80vh - 4em);
@@ -1649,8 +1649,8 @@
 			-webkit-transition-delay: 2.525s;
 			-ms-transition-delay: 2.525s;
 			transition-delay: 2.525s;
-			height: calc(40vh - 2em);
-			min-height: 20em;
+			height: calc((16/9) * var(--width));
+			min-height: 13em;
 			width: 25%;
 		}
 
@@ -1745,8 +1745,8 @@
 				-webkit-transition-delay: 2.075s;
 				-ms-transition-delay: 2.075s;
 				transition-delay: 2.075s;
-				height: calc(40vh - 2em);
-				min-height: 20em;
+				height: calc((16/9) * var(--width));
+				min-height: 13em;
 				width: 33.33333%;
 			}
 
@@ -1822,8 +1822,8 @@
 				-webkit-transition-delay: 1.625s;
 				-ms-transition-delay: 1.625s;
 				transition-delay: 1.625s;
-				height: calc(40vh - 2em);
-				min-height: 20em;
+				height: calc((16/9) * var(--width));
+				min-height: 13em;
 				width: 50%;
 			}
 
@@ -1878,8 +1878,8 @@
 				-webkit-transition-delay: 2.075s;
 				-ms-transition-delay: 2.075s;
 				transition-delay: 2.075s;
-				height: calc(28.57143vh - 1.33333em);
-				min-height: 18em;
+				height: calc((16/9) * var(--width));
+				min-height: 13em;
 				width: 50%;
 			}
 
@@ -1955,8 +1955,8 @@
 				-webkit-transition-delay: 1.175s;
 				-ms-transition-delay: 1.175s;
 				transition-delay: 1.175s;
-				height: calc(40vh - 2em);
-				min-height: 18em;
+				height: calc((16/9) * var(--width));
+				min-height: 13em;
 				width: 100%;
 			}
 

@@ -19,7 +19,7 @@ layout: default
     <div id="particles-js" >
         <div id="main">
             {% for row in site.data.yt %}
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ row.yt_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="thumb" src="https://www.youtube.com/embed/{{ row.yt_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             {% endfor %}
         </div>
         <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" ></canvas>
@@ -42,20 +42,6 @@ layout: default
                 <section>
                     <h2>Follow me on ...</h2>
                     <ul class="icons">
-                        {% if site.social_urls.facebook %}
-                            <li>
-                                <a href="{{ site.social_urls.facebook }}" class="icon fa-facebook">
-                                    <span class="label">Facebook</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.twitter %}
-                            <li>
-                                <a href="{{ site.social_urls.twitter }}" class="icon fa-twitter">
-                                    <span class="label">Twitter</span>
-                                </a>
-                            </li>
-                        {% endif %}
                         {% if site.social_urls.instagram %}
                             <li>
                                 <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram">
@@ -63,17 +49,10 @@ layout: default
                                 </a>
                             </li>
                         {% endif %}
-                        {% if site.social_urls.dribbble %}
+                        {% if site.social_urls.youtube %}
                             <li>
-                                <a href="{{ site.social_urls.dribbble }}" class="icon fa-dribbble">
-                                    <span class="label">Dribbble</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.github %}
-                            <li>
-                                <a href="{{ site.social_urls.github }}" class="icon fa-github">
-                                    <span class="label">GitHub</span>
+                                <a href="{{ site.social_urls.youtube }}" class="icon fa-youtube">
+                                    <span class="label">YouTube</span>
                                 </a>
                             </li>
                         {% endif %}
@@ -85,6 +64,10 @@ layout: default
                             </li>
                         {% endif %}
                     </ul>
+                </section>
+                <section>
+                    <h2>Or write me an email:</h2>
+                    <p>olga.alexeeva@oal-studio.de</p>
                 </section>
             </div>
         </div>
