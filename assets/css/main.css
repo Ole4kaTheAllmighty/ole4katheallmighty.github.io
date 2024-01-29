@@ -1603,7 +1603,7 @@
 			-webkit-transition: opacity 0.5s ease, visibility 0.5s;
 			-ms-transition: opacity 0.5s ease, visibility 0.5s;
 			transition: opacity 0.5s ease, visibility 0.5s;
-			background: rgba(36, 38, 41, 0.25);
+			background: transparent;
 			content: '';
 			display: block;
 			height: 100%;
@@ -1617,7 +1617,7 @@
 		}
 
 			body.ie #main:after {
-				background: rgba(36, 38, 41, 0.55);
+				background: transparent;
 			}
 
 		body.content-active #main {
