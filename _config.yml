@@ -5,10 +5,10 @@ baseurl: ""
 
 # UI configs
 title: "Videos by Olga Alexeeva"
-subtitle: "See the world through AI"
+subtitle: "See the world through my eyes"
 author: "Olga Alexeeva"
 header:
-  title: "AI videos"
+  title: "Videos"
   subtitle: "by Olga Alexeeva"
 footer:
   name: "Hey there, my name is Olga"
