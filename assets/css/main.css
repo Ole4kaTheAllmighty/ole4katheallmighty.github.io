@@ -18,6 +18,35 @@
 		vertical-align: baseline;
 	}
 
+	#particles-js .jumbotron{position:absolute;pointer-events:none}
+
+	
+	.accordion-container {
+		width: 100%; /* Full width */
+	}
+	
+	.accordion-header {
+		width: 100%;
+		cursor: pointer;
+		pointer-events: all;
+		text-align: center;
+		border: none; /* No border */
+		outline: none;
+		transition: background-color 0.6s ease;
+	}
+	
+	.accordion-content {
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.6s ease, padding 0.6s ease;
+		width: 100%; /* Full width */
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+
+
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}

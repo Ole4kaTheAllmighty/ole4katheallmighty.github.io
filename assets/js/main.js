@@ -323,14 +323,46 @@
 
     });
 
+
+    document.addEventListener(
+        "DOMContentLoaded",
+        (event) => {
+          particlesJS.load("particles-js", "/assets/json/particles.json", function () {
+            console.log("particles.js loaded - callback");
+          });
+        },
+        false
+      );
+    
+      document.addEventListener("DOMContentLoaded", function() {
+        // Select all accordion headers
+        const headers = document.querySelectorAll(".accordion-header");
+        headers.forEach(header => {
+            header.addEventListener("click", function() {
+                // Toggle active class on the header
+                this.classList.toggle("active");
+                const content = this.nextElementSibling;
+                const icon = this.querySelector("i"); // Select the icon within the header
+    
+                if (content.style.maxHeight) {
+                    // Accordion is open, close it
+                    content.style.maxHeight = null;
+                    content.style.paddingTop = '0';
+                    content.style.paddingBottom = '0';
+                    icon.classList.remove("fa-angle-up");
+                    icon.classList.add("fa-angle-down");
+                } else {
+                    // Accordion is closed, open it
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    content.style.paddingTop = '20px';
+                    content.style.paddingBottom = '20px';
+                    icon.classList.remove("fa-angle-down");
+                    icon.classList.add("fa-angle-up");
+                }
+            });
+        });
+    });
+
 })(jQuery);
 
-document.addEventListener(
-    "DOMContentLoaded",
-    (event) => {
-      particlesJS.load("particles-js", "/assets/json/particles.json", function () {
-        console.log("particles.js loaded - callback");
-      });
-    },
-    false
-  );
+
