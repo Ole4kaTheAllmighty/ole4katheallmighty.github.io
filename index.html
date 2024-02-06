@@ -15,14 +15,23 @@ layout: default
         </nav>
     </header>
 
-    <!-- Main -->
-    <div id="particles-js" >
-        <div id="main">
-            {% for row in site.data.yt %}
+    
+    <div id="particles-js">
+        <div id="main" class="jumbotron">
+            <h1>Skills</h1>
+            {% for row in site.data.skills %}
+            <iframe class="thumb" src="https://www.youtube.com/embed/{{ row.yt_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            {% endfor %}
+            <h1>AI Videos</h1>
+            {% for row in site.data.aivideos %}
+            <iframe class="thumb" src="https://www.youtube.com/embed/{{ row.yt_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            {% endfor %}
+            <h1>Video Editing</h1>
+            {% for row in site.data.videoediting %}
             <iframe class="thumb" src="https://www.youtube.com/embed/{{ row.yt_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             {% endfor %}
         </div>
-        <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" ></canvas>
+        <canvas class="particles-js-canvas-el" style="width: 100%; height: 1000%;" ></canvas>
     </div>
 
     <!-- Footer -->
@@ -53,6 +62,13 @@ layout: default
                             <li>
                                 <a href="{{ site.social_urls.youtube }}" class="icon fa-youtube-play">
                                     <span class="label">YouTube</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if site.social_urls.tiktok %}
+                            <li>
+                                <a href="{{ site.social_urls.tiktok }}">
+                                    <span class="label"><i class="fa-brands fa-tiktok"></i></span>
                                 </a>
                             </li>
                         {% endif %}
