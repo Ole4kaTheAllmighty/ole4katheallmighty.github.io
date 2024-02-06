@@ -347,15 +347,15 @@
                 if (content.style.maxHeight) {
                     // Accordion is open, close it
                     content.style.maxHeight = null;
-                    content.style.paddingTop = '0';
-                    content.style.paddingBottom = '0';
+                    content.style.marginTop = '0';
+                    content.style.marginBottom = '0';
                     icon.classList.remove("fa-angle-up");
                     icon.classList.add("fa-angle-down");
                 } else {
                     // Accordion is closed, open it
                     content.style.maxHeight = content.scrollHeight + "px";
-                    content.style.paddingTop = '20px';
-                    content.style.paddingBottom = '20px';
+                    content.style.marginTop = '20px';
+                    content.style.marginBottom = '20px';
                     icon.classList.remove("fa-angle-down");
                     icon.classList.add("fa-angle-up");
                 }
