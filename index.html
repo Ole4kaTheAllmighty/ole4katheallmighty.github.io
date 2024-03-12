@@ -18,6 +18,10 @@ layout: default
     
     <div id="particles-js">
         <div id="main" class="jumbotron">
+            <h1>Latest</h1>
+            {% for row in site.data.latest %}
+            <iframe class="thumb" src="https://www.youtube.com/embed/{{ row.yt_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            {% endfor %}
             <h1>Skills</h1>
             {% for row in site.data.skills %}
             <iframe class="thumb" src="https://www.youtube.com/embed/{{ row.yt_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
