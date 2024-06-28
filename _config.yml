@@ -4,16 +4,21 @@ baseurl: ""
 #youtube_urls: "/assets/yt.txt"
 
 # UI configs
-title: "Videos by Olga Alexeeva"
+title: "Videos by Oalfoxy"
 subtitle: "See the world through my eyes"
 author: "Olga Alexeeva"
 header:
   title: "Videos"
-  subtitle: "by Olga Alexeeva"
+  subtitle: "by Oalfoxy"
 footer:
-  name: "Hey there, my name is Olga"
-  bio: "Hello! I'm Olga, a passionate video editor from Germany, leveraging the transformative power of AI to create visually stunning and innovative videos. With a flair for blending creativity with technology, I specialize in bringing stories to life through the art of video editing, tailored to captivate a global audience."
+  name: "Hey!"
+  bio: "My name is Olga. I am passionate AI-artist and video editor from Germany, leveraging the transformative power of AI to create visually stunning and innovative videos. With a flair for blending creativity with technology, I specialize in bringing stories to life through the art of video editing, tailored to captivate a global audience."
 social_urls:
   instagram: "https://www.instagram.com/oalfoxy/"
   youtube: "https://www.youtube.com/@olgaalexeeva"
   tiktok: "https://www.tiktok.com/@oalfoxy"
+  twitter: "https://x.com/oalfoxy"
+  linkedin: "https://www.linkedin.com/in/oalfoxy"
+  pinterest: "https://www.pinterest.de/oalfoxy/"
+  etsy: "https://www.etsy.com/de-en/shop/OALstudio"
+  email: "olga.alexeeva@oal-studio.de"

@@ -193,8 +193,10 @@
 	}
 
 		a:hover {
+			transition: color 0.2s ease, font-weight 0.2s ease;
 			border-bottom-color: transparent;
-			color: #34a58e !important;
+			color: #ffffff !important;
+			font-weight: bolder;
 		}
 
 	strong, b {
@@ -1428,8 +1430,8 @@
 				color: inherit;
 			}
 
-				#header h1 a:hover {
-					color: inherit !important;
+				#header h1 ul {
+					margin: 0;
 				}
 
 		#header nav {
@@ -1987,11 +1989,19 @@
 	#footer .copyright {
 		color: #505051;
 		font-size: 0.9em;
+		margin: 0;
 	}
 
-		#footer .copyright a {
-			color: inherit;
-		}
+	#footer .copyright a {
+		color: inherit;
+	}
+
+	#footer img {
+		align-items: center;
+		max-width: 100%;
+		padding: 10px;
+		max-height: calc(10 * 1.5em);
+	}
 
 
 #particles-js .jumbotron{
