@@ -6,13 +6,13 @@ baseurl: ""
 # UI configs
 title: "Videos by Oalfoxy"
 subtitle: "See the world through my eyes"
-author: "Olga Alexeeva"
+author: "Olga Melnik"
 header:
   title: "Videos"
   subtitle: "by Oalfoxy"
 footer:
-  name: "Hey!"
-  bio: "My name is Olga. I am passionate AI-artist and video editor from Germany, leveraging the transformative power of AI to create visually stunning and innovative videos. With a flair for blending creativity with technology, I specialize in bringing stories to life through the art of video editing, tailored to captivate a global audience."
+  name: "Olga Melnik"
+  bio: "Hi there! My name is Olga. I am passionate AI-artist and video editor from Germany, leveraging the power of AI to create stunning and innovative videos. I specialize in bringing stories to life through the art of video editing, tailored to captivate global audience."
 social_urls:
   instagram: "https://www.instagram.com/oalfoxy/"
   youtube: "https://www.youtube.com/@oalfoxy"
